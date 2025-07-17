@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1752736625301,2373,launch OrangeHRM,200,OK,Login Module 1-1,text,true,,2709,491,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,2356,0,1937
+1752736627442,1121,Login Page,200,OK,Login Module 1-1,text,true,,5243,1647,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,702,0,0
+1752736627023,702,Login Page-0,302,Found,Login Module 1-1,text,true,,2097,921,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,702,0,0
+1752736627442,415,Login Page-1,200,OK,Login Module 1-1,text,true,,3146,726,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,415,0,0
+1752736629685,1153,launch OrangeHRM,200,OK,Functional Module 1-1,text,true,,2691,491,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,1153,0,749
+1752736631834,1133,Login Page,200,OK,Functional Module 1-1,text,true,,5243,1627,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,685,0,0
+1752736631386,685,Login Page-0,302,Found,Functional Module 1-1,text,true,,2097,901,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,685,0,0
+1752736631834,447,Login Page-1,200,OK,Functional Module 1-1,text,true,,3146,726,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,447,0,0
+1752736633370,527,Dahboard,200,OK,Functional Module 1-1,text,true,,3146,626,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,526,0,0
+1752736634791,417,Employeelist,200,OK,Functional Module 1-1,text,true,,3301,636,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList,417,0,0
+1752736636232,436,SearchEmployee,200,OK,Functional Module 1-1,text,true,,1679,717,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&empNumber=197&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC,436,0,0
+1752736637874,628,EmployeeDetailPage,200,OK,Functional Module 1-1,text,true,,5575,658,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/197,627,0,0
+1752736639514,635,EditEmployee,200,OK,Functional Module 1-1,text,true,,1709,922,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/197/personal-details,635,0,0
+1752736641773,1217,launch OrangeHRM,200,OK,Logout Module 1-1,text,true,,2698,491,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,1217,0,807
+1752736644408,1606,Login Page,200,OK,Logout Module 1-1,text,true,,5243,1639,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,1013,0,0
+1752736643816,1014,Login Page-0,302,Found,Logout Module 1-1,text,true,,2097,913,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,1013,0,0
+1752736644408,591,Login Page-1,200,OK,Logout Module 1-1,text,true,,3146,726,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index,591,0,0
+1752736646678,1262,Logout,200,OK,Logout Module 1-1,text,true,,4663,1297,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,647,0,0
+1752736646063,647,Logout-0,302,Found,Logout Module 1-1,text,true,,2072,649,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/logout,647,0,0
+1752736646678,614,Logout-1,200,OK,Logout Module 1-1,text,true,,2591,648,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,614,0,0
